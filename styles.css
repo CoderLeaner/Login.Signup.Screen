@@ -1,0 +1,145 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4faff;
+  }
+  
+  /* Container */
+  .container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Left Section */
+  .form-section {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .form-section form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    color: #666666;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .password-field {
+    position: relative;
+  }
+  
+  .password-field .show-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .btn-signin {
+    width: 100%;
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-signin:hover {
+    background-color: #0097a7;
+  }
+  
+  p {
+    text-align: center;
+    margin: 20px 0 10px;
+    color: #666666;
+  }
+  
+  /* Social Buttons */
+  .social-login {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-btn {
+    border: none;
+    padding: 10px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: #F3F6FBFF; 
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .google {
+    background-color: #FEF1F1FF;
+    color: rgb(238, 10, 10);
+  }
+  
+  .facebook {
+    background-color: #F3F6FBFF;
+    color: rgb(59, 10, 236);
+  }
+  
+  .apple {
+    background-color: #F3F6FBFF;
+    color: white;
+  }
+  
+  /* Right Section */
+  .image-section {
+    flex: 1;
+    background-color: #00bcd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
